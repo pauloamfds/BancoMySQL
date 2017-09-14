@@ -1,2 +1,2 @@
 # BancoMySQL
-To compile using MySQL: gcc name.c -o name 4(mysql_config --libs --cflags)
+To compile using MySQL: gcc name.c -o name $(mysql_config --libs --cflags)
